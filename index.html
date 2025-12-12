@@ -34,3 +34,90 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 
+/* Corps du site sombre */
+body {
+    font-family: 'Orbitron', sans-serif; /* futuriste */
+    background-color: #0f0f0f; /* fond sombre */
+    color: #00ffea; /* texte bleu néon */
+    margin: 0;
+    padding: 0;
+}
+
+/* Liens et navigation */
+nav a {
+    color: #00ffea;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff00ff; /* effet néon rose au survol */
+}
+
+/* Header sombre avec bordure néon */
+header {
+    background-color: #111;
+    border-bottom: 2px solid #00ffea;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* Section “hero” sombre avec gradient */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #0f0f0f, #111111);
+}
+
+/* Boutons futuristes */
+button {
+    padding: 15px 30px;
+    background: #00ffea;
+    border: none;
+    color: #111;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff00ff;
+    color: white;
+    box-shadow: 0 0 20px #00ffea, 0 0 40px #ff00ff;
+}
+
+/* Cartes ou sections */
+.card {
+    background: #111;
+    border: 2px solid #00ffea;
+    border-radius: 15px;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border-color: #ff00ff;
+}
+
+/* Footer sombre */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    border-top: 2px solid #00ffea;
+}
+
